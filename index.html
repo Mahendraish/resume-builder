@@ -1,0 +1,83 @@
+<!-- index.html -->
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8" /> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+	<title>Resume Creator</title> 
+	<!-- style link here -->
+	<link rel="stylesheet" href="style.css" /> 
+</head> 
+
+<body > 
+	<!-- input container starts here -->
+	<section class="resume-builder" style="background-color: silver;"> 
+		<div class="container" style=" background-color: white"> 
+			<h1>Resume Creation</h1> 
+			<div class="resume_container"> 
+				<form class="inputField"> 
+					<input type="text"
+						name="name"
+						placeholder="Your Name"
+						title="Enter Your Name" /> 
+					<input type="text"
+						name="title"
+						placeholder="Title/Sub Heading"
+						title="Enter Title/Sub Heading" /> 
+					<input name="work_experience"
+							placeholder="Work Experience"
+							
+							title="Enter Your Work Experience"> 
+					</input> 
+					<input name="academic_details"
+							placeholder="Academic Details"
+							
+							title="Enter Your Academic Details"> 
+					</input> 
+					<input type="text" placeholder="certifications" 
+						title="Enter Your Objective"
+						name="objective" /> 
+					<input name="skills"
+							title="Enter Your Skills"
+							placeholder="Skills" cols="40"
+							rows="3"> 
+					</input> 
+					<input name="projects"
+							title="Enter Your Projects"
+							placeholder="Projects"
+							cols="40"
+							rows="3"> 
+					</input> 
+					<input name="achievements"
+							placeholder="Achievements"
+							
+							title="Enter Your Achievements"> 
+					</input> 
+					<input name="contact"
+							placeholder="Contact Information"
+							
+							title="Enter Your Contact Information"> 
+					</input> 
+				</form> 
+			</div> 
+			
+		</div> 
+	</section> 
+	<!-- input container ends here -->
+
+	<!-- output container starts here -->
+	<div class="output_container" style="background-color: silver;"></div> 
+	<!-- output container ends here -->
+
+	<!-- preview button -->
+	<button onclick="hide()" style=" border-color: green;"> 
+		Generate / Edit 
+	</button> 
+
+	<!-- script link here -->
+	<script src="script.js"></script> 
+</body> 
+
+</html>
